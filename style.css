@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background: linear-gradient(180deg, #F2EEE8, #E38792, #9DAD71);
+  color: #4E0A0B;
+  text-align: center;
+}
+
+/* Card Layout */
+.card {
+  background: #F2EEE8;
+  margin: 30px auto;
+  padding: 40px;
+  border-radius: 25px;
+  width: 90%;
+  max-width: 650px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+}
+
+/* Headings */
+h1 {
+  font-size: 3.5rem;
+}
+
+h2 {
+  font-size: 2.2rem;
+}
+
+p {
+  font-size: 1.2rem;
+}
+
+/* Buttons */
+button {
+  padding: 12px 25px;
+  border-radius: 25px;
+  border: none;
+  background: #E38792;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+  margin-top: 15px;
+}
+
+button:hover {
+  background: #4E0A0B;
+}
+
+/* Highlight */
+.highlight {
+  background: #E38792;
+  color: white;
+  padding: 3px 6px;
+  border-radius: 5px;
+}
+
+/* Quotes */
+.quotes p {
+  font-style: italic;
+  margin: 10px 0;
+}
+
+/* Textarea */
+textarea {
+  width: 90%;
+  height: 120px;
+  border-radius: 10px;
+  border: 1px solid #E38792;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+/* Small text */
+.small {
+  opacity: 0.6;
+  font-size: 0.9rem;
+}
+
+/* Links */
+a {
+  text-decoration: none;
+  color: #4E0A0B;
+  font-weight: bold;
+}
+
+/* Footer */
+.footer {
+  padding: 40px;
+  font-weight: bold;
+}
